@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>CGPA PEOJECT</title>
+    <link rel="stylesheet" href="CGPA.Css">
+</head>
+<body>
+    <h1 class="header">CGPA CALCULATION PAGE</h1>
+    <div class="inputDiv col-md-6">
+        <form id="mainForm">
+            <div class="gradeDiv">
+                <input type="number" id="numOfA" class="form-control" placeholder="how many A's do you have?">
+                <input type="number" id="creditUnitOfA" class=" form-control" placeholder="sum of credit units in courses you got A">
+            </div>
+            <div class="gradeDiv">
+                <input type="number" id="numOfB" class="form-control" placeholder="how many B's do you have?">
+                <input type="number" id="creditUnitOfB"  class="form-control" placeholder="sum of credit units in courses you got B">
+            </div>
+            <div class="gradeDiv">
+                <input type="number" id="numOfC" class="form-control" placeholder="how many C's do you have?">
+                <input type="number" id="creditUnitOfC" class="form-control" placeholder="sum of credit units in courses you got C">
+            </div>
+            <div class="gradeDiv">
+                <input type="number" id="numOfD" class="form-control" placeholder="how many D's do you have?">
+                <input type="number" id="creditUnitOfD" class="form-control" placeholder="sum of credit units in courses you got D">
+            </div>
+            <div class="gradeDiv">
+                <input type="number" id="numOfE" class="form-control" placeholder="how many E's do you have?">
+                <input type="number" id="creditUnitOfE"class="form-control" placeholder="sum of credit units in courses you got E">
+            </div>
+            <div class="gradeDiv">
+                <input type="number" id="numOfF" class="form-control" placeholder="how many F's do you have?">
+                <input type="number" id="creditUnitOfF" class="form-control" placeholder="sum of credit units in courses you got F">
+            </div>
+            <input type="submit" class="btn btn-light">
+        </form>
+        
+    </div>
+    <div>
+        <h1 class="header">CALCULATED CGPA</h1>
+        <p>Your CGAP is   </p>
+        <input type="number" class="cgpaResult">
+    </div>
+
+    <script src="CGPA.JS"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
