@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="membershipForm.css">
+    <style>
+    
+        .success, .error{
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+.btn{
+    color: green;
+}
+i{
+    color: red;
+}
+#request{
+    margin-top: 3%;
+}
+    </style>
+    <title>Membership Form</title>
+</head>
+<body> 
+    <div class="container">
+        <h1>Membership Form</h1>
+        <p id ="request">Please fill the Form below</p>
+        <i class="instruction">Do not leave any Field Empty</i>
+        <form id="membershipForm">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" class="u-full-width">
+            </div>
+            <div>
+                <label for="dept">Department</label>
+                <input type="text" id="dept" class="u-full-width">
+            </div>
+            <div>
+                <label for="level">Level</label>
+                <input type="text" id="level" class="u-full-width">
+            </div>
+            <div>
+                <label for="adress">Adress</label>
+                <input type="text" id="adress" class="u-full-width">
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="number" id="phone" class="u-full-width">
+            </div>
+            <div>
+                <label for="dof">Date of Birth</label>
+                <input type="text" id="dofB" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="submit" class="u-full-width">
+            </div>
+        </form>
+        <table id="'table" class="full-width">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Level</th>
+                    <th>Adress</th>
+                    <th>Phone</th>
+                    <th>Date of Birth</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="membershipForm.js"></script>
+</body>
+</html>
